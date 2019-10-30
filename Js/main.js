@@ -6,7 +6,6 @@
 		$("input").click(function(){
 			var property = $(this).val();
 			$(".text-align").css("text-align", property);
-			alert(property);
 		});
     };
 
