@@ -38,8 +38,12 @@ li{
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 }
-@media screen and (max-width: 768px) {
-	*{
-		font-size: 18px;
-	}
+ @media screen and (max-width: 768px) {
+    h1 {
+    	/*background-color: red;*/
+      	font-size: 20px;
+      }
+    .grey, .white{
+    	font-size: 14px;
+    } 
 }
