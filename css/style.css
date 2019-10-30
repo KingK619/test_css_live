@@ -1,0 +1,40 @@
+body{
+	margin-top: 0px;
+	padding: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #ccc;
+}
+.grey{
+	background-color: grey;
+	font-size: 32px;
+}
+.white{
+	background-color: #fee;
+	border: 2px solid black;
+	padding: 10px;
+}
+.box{
+	height: 200px;
+}
+.box .row{
+	height: 100%;
+}
+ul{
+	list-style: none;
+}
+li{
+	padding: 10px;
+}
+.result{
+	font-size: 18px;
+}
+.text-align{
+	text-align: initial;
+}
+.row:nth-child(1) .col-6{
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
